@@ -78,6 +78,7 @@ The site was deployed to Github Pages using the following method:
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
   - Code & Text Content
+    
 For Favicon:
   https://www.w3schools.com/html/html_favicon.asp#:~:text=To%20add%20a%20favicon%20to,is%20%22favicon.ico%22.
   - Media
@@ -85,3 +86,4 @@ For Favicon:
   - Acknowledgment
 
     
+
