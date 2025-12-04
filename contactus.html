@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diversity & Inclusion</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        /* --- BACKGROUND IMAGE ADDED HERE ---
+            */
+        background-image: url("assets/images/background image.JPG");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      /* Ensuring main content remains readable against the background */
+      main {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.9
+        ); /* Slightly transparent white to ensure text readability */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); /* Stronger shadow to lift the content */
+      }
+    </style>
+    <!-- Load Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/3516ff0da6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+ </head>
+  <body class="min-h-screen">
+    <header class="shadow-lg mx-auto" style="margin-top: 35px">
+<div class="max-w-full mx-auto bg-orange-600 shadow-xl rounded-b-xl relative border-2 border-black">
+    
+    <button id="burger-button" class="sm:hidden p-4 text-black w-full flex justify-end items-center" aria-label="Toggle navigation menu">
+        <i class="fas fa-bars text-3xl"></i>
+    </button>
+
+    <div id="desktop-menu" class="hidden sm:grid grid-cols-5">
+        <a
+            href="index.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Home</span
+            >
+        </a>
+
+        <a
+            href="about.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >About</span
+            >
+        </a>
+
+        <div class="col-span-1 py-4">
+            </div>
+
+        <a
+            href="diversity&inclusion.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Diversity & Inclusion</span
+            >
+        </a>
+
+        <a
+            href="contactus.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 rounded-br-xl flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Contact us</span
+            >
+        </a>
+    </div> 
+    
+    <div id="mobile-menu" class="hidden absolute w-full bg-orange-700 z-20 shadow-xl border-t border-black">
+        <a href="index.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">Home</a>
+        <a href="about.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">About</a>
+        <a href="diversity&inclusion.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">Diversity & Inclusion</a>
+        <a href="contactus.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold">Contact us</a>
+    </div>
+
+
+    <a
+      href="index.html"
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-28 w-28 bg-white rounded-full border-6 border-orange-800 shadow-2xl flex items-center justify-center z-30 transform hover:scale-105 transition duration-300 cursor-pointer"
+    >
+      <img
+        src="assets/images/DVincluLogo.gif"
+        alt="Logo"
+        class="h-26 w-26 object-contain rounded-full"
+        onerror="this.onerror=null;this.src='assets/images/DVincluLogo.gif';"
+      />
+    </a>
+</div>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-14 rounded-lg shadow-xl">
+      <h1 class="text-center text-3xl font-extrabold mb-6 text-orange-700 underline">
+         Contact Us Here 📱📧
+      </h1>
+
+      <div class="space-y-4 pt-4">
+        <div
+          class="h-50 bg-gray-100 p-4 rounded-lg flex items-center justify-center"
+        >
+        <p class="italic text-center">
+        At DV Inclusive, we value your feedback and inquiries! Whether you have questions about our resources, suggestions for new content, or just want to share your thoughts on diversity and inclusion, we're here to listen. You can Reach out to us via email at <a class="underline" href="mailto:info@dvinclusive.com">info@dvinclusive.com</a> or through our easy to fill in form below and we will be in touch with as soon as possible.
+        </p>
+        </div>
+        
+                   <!-- Content Section 4: Contact Us Form -->
+            <div id="contact" class="bg-white p-8 rounded-lg shadow-xl border border-gray-200 mt-4">
+                <h2 class="text-3xl font-extrabold text-orange-700 underline italic text-center mb-8">
+                    Get in Touch
+                </h2>
+                <p class="text-center text-gray-600 mb-6">
+                    We'd love to hear from you! Please fill out the form below and we will get back to you as soon as possible.
+                </p>
+
+                <form id="contact-form" class="max-w-md mx-auto space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" required
+                            class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 transition duration-150"
+                            placeholder="Your Full Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                        <input type="email" id="email" name="email" required
+                            class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 transition duration-150"
+                            placeholder="you@example.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" required
+                            class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 resize-none transition duration-150"
+                            placeholder="Tell us about your query..."></textarea>
+                    </div>
+                    
+                    <button type="submit"
+                        class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-lg text-lg font-medium text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-300 transform hover:scale-[1.01] active:scale-95">
+                        Send Message
+                    </button>
+
+                    <div id="form-message" class="text-center py-2 hidden rounded-md font-semibold"></div>
+                </form>
+            </div>
+
+                <!-- Custom Success Modal (Pop-up) -->
+    <div id="success-modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 z-50 hidden flex items-center justify-center p-4" aria-modal="true" role="dialog" aria-labelledby="modal-title">
+        <div class="bg-white rounded-xl shadow-2xl p-8 max-w-sm w-full transform transition-all duration-300 scale-95 opacity-0" id="modal-content">
+            <div class="text-center">
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 mb-4">
+                    <!-- Checkmark Icon from Font Awesome -->
+                    <i class="fas fa-check text-2xl text-green-600"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900" id="modal-title">Message Sent!</h3>
+                <div class="mt-2">
+                    <p class="text-sm text-gray-500">
+                        Thanks for reaching out! We've received your message and will get back to you soon.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button type="button" id="close-modal-btn"
+                    class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-orange-600 text-base font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-150">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+      
+
+    <!-- FOOTER SECTION -->
+
+
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-black text-sm font-medium">
+          Follow us for live updates on Diversity/Inclusion & your chance to win
+          amazing prizes! | © 2025 DV Inclusive  
+        </p>
+
+            <!-- Social Media Button Container: Added space-x-4 for spacing -->
+            <div class="flex justify-center mt-2 space-x-4">
+                
+                <!-- 1. Blue Outline Facebook Button -->
+                <a href="#" aria-label="Facebook"
+                   class="text-blue-600 border border-blue-600 hover:bg-blue-600 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                
+                <!-- 2. Yellow Outline Snapchat Button -->
+                <a href="#" aria-label="Snapchat"
+                   class="border border-yellow-500 hover:bg-yellow-500 hover:text-black 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <!-- Icon uses the specific brand yellow color as requested -->
+                    <i class="fa-brands fa-square-snapchat" style="color: #FFD43B;"></i>
+                </a>
+
+                <!-- 3. Red Outline YouTube Button -->
+                <a href="#" aria-label="YouTube"
+                   class="border border-red-600 hover:bg-red-600 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-youtube" style="color: #ff1900;"></i>
+                </a>
+
+                <!-- 4. Black Outline TikTok Button -->
+                <a href="#" aria-label="TikTok"
+                   class="text-black border border-black hover:bg-black hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                 <!-- 5. Purple Outline Instagram Button -->
+                <a href="#" aria-label="Instagram"
+                   class="border border-purple-400 hover:bg-purple-400 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-instagram" style="color: #B197FC;"></i>
+                </a>
+            </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+        <script>
+
+    // --- Burger Button Logic ---
+        const burgerButton = document.getElementById('burger-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerButton.addEventListener('click', () => {
+            // Toggle the 'hidden' class to show/hide the mobile menu
+            mobileMenu.classList.toggle('hidden');
+        });
+
+    </script>
+
+  </body>
+</html>

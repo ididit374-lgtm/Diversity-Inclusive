@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diversity & Inclusion</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        /* --- BACKGROUND IMAGE ADDED HERE ---
+            */
+        background-image: url("assets/images/background image.JPG");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      /* Ensuring main content remains readable against the background */
+      main {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.9
+        ); /* Slightly transparent white to ensure text readability */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); /* Stronger shadow to lift the content */
+      }
+    </style>
+    <!-- Load Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/3516ff0da6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+  </head>
+  <body class="min-h-screen">
+    <header class="shadow-lg mx-auto" style="margin-top: 35px">
+<div class="max-w-full mx-auto bg-orange-600 shadow-xl rounded-b-xl relative border-2 border-black">
+    
+    <button id="burger-button" class="sm:hidden p-4 text-black w-full flex justify-end items-center" aria-label="Toggle navigation menu">
+        <i class="fas fa-bars text-3xl"></i>
+    </button>
+
+    <div id="desktop-menu" class="hidden sm:grid grid-cols-5">
+        <a
+            href="index.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Home</span
+            >
+        </a>
+
+        <a
+            href="about.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >About</span
+            >
+        </a>
+
+        <div class="col-span-1 py-4">
+            </div>
+
+        <a
+            href="diversity&inclusion.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Diversity & Inclusion</span
+            >
+        </a>
+
+        <a
+            href="contactus.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 rounded-br-xl flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Contact us</span
+            >
+        </a>
+    </div> 
+    
+    <div id="mobile-menu" class="hidden absolute w-full bg-orange-700 z-20 shadow-xl border-t border-black">
+        <a href="index.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">Home</a>
+        <a href="about.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">About</a>
+        <a href="diversity&inclusion.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">Diversity & Inclusion</a>
+        <a href="contactus.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold">Contact us</a>
+    </div>
+
+
+    <a
+      href="index.html"
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-28 w-28 bg-white rounded-full border-6 border-orange-800 shadow-2xl flex items-center justify-center z-30 transform hover:scale-105 transition duration-300 cursor-pointer"
+    >
+      <img
+        src="assets/images/DVincluLogo.gif"
+        alt="Logo"
+        class="h-26 w-26 object-contain rounded-full"
+        onerror="this.onerror=null;this.src='assets/images/DVincluLogo.gif';"
+      />
+    </a>
+</div>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-14 rounded-lg shadow-xl">
+      <h1 class="text-center text-3xl font-extrabold mb-6 text-orange-700 underline">
+        Diversity & Inclusion 🌎
+      </h1>
+
+            <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <!-- Main Heading with Orange Font and Underline -->
+                <!-- UPDATED: Centered, Italicized, and Reduced Size (text-2xl) -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    Quick Overview
+                </h2>
+                <!-- Sample Text Below (Updated to text-black) -->
+                <p class="text-black leading-relaxed text-lg">
+                    This is the page that will guide you through the basics of Diversity & Inclusion, its importance in today's world, and provide you with valuable resources to further your understanding. There will be few examples of how Diversity & Inclusion can be implemented in various settings, such as workplaces, educational institutions, and communities. Let's embark on this journey towards a more inclusive and diverse world together!
+                </p>
+            </div>
+
+
+
+
+             <!-- Content Section 3: Core Values Card Group -->
+            <div class="bg-white p-8 rounded-lg shadow-xl border border-gray-200">
+                <!-- Main Title -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    Core Values: Six Pillars of Inclusion
+                </h2>
+
+                <!-- Card Group Container: 6 cards, attached together (gap-0). Uses grid-cols-1/3/6 for responsiveness. -->
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-0 border-2 border-gray-300 rounded-lg overflow-hidden">
+                    
+                    <!-- Card 1: Inclusion -->
+                    <div class="bg-white hover:bg-orange-50 p-4 flex flex-col h-full transition duration-300 border-b md:border-r md:border-b lg:border-r lg:border-b-0 border-gray-300">
+                        <!-- Image Placeholder -->
+                        <div class="h-24 w-full bg-gray-200 flex items-center justify-center mb-3 rounded-md">
+                            <i class="fas fa-people-arrows text-3xl text-gray-500"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-black text-center mb-1">Inclusion</h3>
+                        <p class="text-gray-700 text-xs flex-grow text-center">
+                            Making sure every voice is heard and valued equally.
+                        </p>
+                    </div>
+
+                    <!-- Card 2: Equity -->
+                    <div class="bg-white hover:bg-orange-50 p-4 flex flex-col h-full transition duration-300 border-b md:border-r md:border-b lg:border-r lg:border-b-0 border-gray-300">
+                        <!-- Image Placeholder -->
+                        <div class="h-24 w-full bg-gray-200 flex items-center justify-center mb-3 rounded-md">
+                            <i class="fas fa-balance-scale text-3xl text-gray-500"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-black text-center mb-1">Equity</h3>
+                        <p class="text-gray-700 text-xs flex-grow text-center">
+                            Providing fair access, opportunities, and support for all.
+                        </p>
+                    </div>
+                    
+                    <!-- Card 3: Respect -->
+                    <!-- This card is the last in the MD (tablet) row, but not the LG (desktop) row. -->
+                    <div class="bg-white hover:bg-orange-50 p-4 flex flex-col h-full transition duration-300 border-b lg:border-r lg:border-b-0 border-gray-300">
+                        <!-- Image Placeholder -->
+                        <div class="h-24 w-full bg-gray-200 flex items-center justify-center mb-3 rounded-md">
+                            <i class="fas fa-handshake text-3xl text-gray-500"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-black text-center mb-1">Respect</h3>
+                        <p class="text-gray-700 text-xs flex-grow text-center">
+                            Honoring all differences and treating everyone with dignity.
+                        </p>
+                    </div>
+
+                    <!-- Card 4: Empathy -->
+                    <div class="bg-white hover:bg-orange-50 p-4 flex flex-col h-full transition duration-300 border-b md:border-r lg:border-r lg:border-b-0 border-gray-300">
+                        <!-- Image Placeholder -->
+                        <div class="h-24 w-full bg-gray-200 flex items-center justify-center mb-3 rounded-md">
+                            <i class="fas fa-heart text-3xl text-gray-500"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-black text-center mb-1">Empathy</h3>
+                        <p class="text-gray-700 text-xs flex-grow text-center">
+                            Understanding and sharing the feelings of others in the community.
+                        </p>
+                    </div>
+
+                    <!-- Card 5: Belonging -->
+                    <div class="bg-white hover:bg-orange-50 p-4 flex flex-col h-full transition duration-300 border-b md:border-r lg:border-r lg:border-b-0 border-gray-300">
+                        <!-- Image Placeholder -->
+                        <div class="h-24 w-full bg-gray-200 flex items-center justify-center mb-3 rounded-md">
+                            <i class="fas fa-users text-3xl text-gray-500"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-black text-center mb-1">Belonging</h3>
+                        <p class="text-gray-700 text-xs flex-grow text-center">
+                            Creating a place where everyone feels safe and accepted.
+                        </p>
+                    </div>
+
+                    <!-- Card 6: Curiosity -->
+                    <!-- This is the last card in the entire LG row, so it needs no borders. -->
+                    <div class="bg-white hover:bg-orange-50 p-4 flex flex-col h-full transition duration-300 border-b md:border-b-0 border-gray-300">
+                        <!-- Image Placeholder -->
+                        <div class="h-24 w-full bg-gray-200 flex items-center justify-center mb-3 rounded-md">
+                            <i class="fas fa-lightbulb text-3xl text-gray-500"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-black text-center mb-1">Curiosity</h3>
+                        <p class="text-gray-700 text-xs flex-grow text-center">
+                            Being open to learning about different people and ideas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <!-- Main Heading with Orange Font and Underline -->
+                <!-- UPDATED: Centered, Italicized, and Reduced Size (text-2xl) -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    Diversity & Inclusion in a school environment
+                </h2>
+                <!-- Sample Text Below (Updated to text-black) -->
+                <p class="text-black leading-relaxed text-lg">
+                    You can enjoin in diversity and inclusion at school, by actively engaging in respectful conversations, joining or starting student groups that promote inclusivity, and challenging negative stereotypes and discrimination. You can also learn about and celebrate different cultures and identities through school events, use inclusive language, and support fellow students who may feel marginalized.
+                </p>
+            </div>
+
+             <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <!-- Main Heading with Orange Font and Underline -->
+                <!-- UPDATED: Centered, Italicized, and Reduced Size (text-2xl) -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    Diversity & Inclusion at workplaces
+                </h2>
+                <!-- Sample Text Below (Updated to text-black) -->
+                <p class="text-black leading-relaxed text-lg">
+                   To participate in diversity and inclusion (D&I) at work, actively listen to and learn from colleagues, challenge biases and exclusionary behavior, use inclusive language, and support D&I initiatives like Employee Resource Groups (ERGs). It's also important to be mindful of your own biases and to speak up constructively when you see discrimination or a lack of inclusion
+                </p>
+            </div>
+          
+<div class="bg-white rounded-lg shadow-xl border border-gray-300 mb-8 overflow-hidden">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+
+            <div class="h-96 w-full"> 
+                <img 
+                    src="assets\images\classroom.png" 
+                    alt="Image of a diverse group of people collaborating on a project." 
+                    class="h-full w-full object-cover"
+                />
+            </div>
+
+            <div class="h-96 w-full">
+                <img 
+                    src="assets\images\Workplace.png" 
+                    alt="Conceptual image illustrating the difference between equity and equality." 
+                    class="h-full w-full object-cover"
+                />
+            </div>
+
+        </div>
+    </div>
+
+
+            </div>
+        
+      </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer
+      class="w-full bg-orange-600 py-6 mt-12 shadow-inner border-t-2 border-black"
+    >
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-black text-sm font-medium">
+          Follow us for live updates on Diversity/Inclusion & your chance to win
+          amazing prizes! | © 2025 DV Inclusive  
+        </p>
+
+            <!-- Social Media Button Container: Added space-x-4 for spacing -->
+            <div class="flex justify-center mt-2 space-x-4">
+                
+                <!-- 1. Blue Outline Facebook Button -->
+                <a href="#" aria-label="Facebook"
+                   class="text-blue-600 border border-blue-600 hover:bg-blue-600 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                
+                <!-- 2. Yellow Outline Snapchat Button -->
+                <a href="#" aria-label="Snapchat"
+                   class="border border-yellow-500 hover:bg-yellow-500 hover:text-black 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <!-- Icon uses the specific brand yellow color as requested -->
+                    <i class="fa-brands fa-square-snapchat" style="color: #FFD43B;"></i>
+                </a>
+
+                <!-- 3. Red Outline YouTube Button -->
+                <a href="#" aria-label="YouTube"
+                   class="border border-red-600 hover:bg-red-600 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-youtube" style="color: #ff1900;"></i>
+                </a>
+
+                <!-- 4. Black Outline TikTok Button -->
+                <a href="#" aria-label="TikTok"
+                   class="text-black border border-black hover:bg-black hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                 <!-- 5. Purple Outline Instagram Button -->
+                <a href="#" aria-label="Instagram"
+                   class="border border-purple-400 hover:bg-purple-400 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-instagram" style="color: #B197FC;"></i>
+                </a>
+            </div>
+        </div>
+
+      </div>
+    </footer>
+
+        <script>
+
+    // --- Burger Button Logic ---
+        const burgerButton = document.getElementById('burger-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerButton.addEventListener('click', () => {
+            // Toggle the 'hidden' class to show/hide the mobile menu
+            mobileMenu.classList.toggle('hidden');
+        });
+
+    </script>
+
+
+
+  </body>
+</html>

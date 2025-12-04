@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diversity & Inclusion</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        /* --- BACKGROUND IMAGE ADDED HERE ---
+            */
+        background-image: url("assets/images/background image.JPG");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      /* Ensuring main content remains readable against the background */
+      main {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.9
+        ); /* Slightly transparent white to ensure text readability */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); /* Stronger shadow to lift the content */
+      }
+    </style>
+    <!-- Load Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/3516ff0da6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+ </head>
+  <body class="min-h-screen">
+    <header class="shadow-lg mx-auto" style="margin-top: 35px">
+<div class="max-w-full mx-auto bg-orange-600 shadow-xl rounded-b-xl relative border-2 border-black">
+    
+    <button id="burger-button" class="sm:hidden p-4 text-black w-full flex justify-end items-center" aria-label="Toggle navigation menu">
+        <i class="fas fa-bars text-3xl"></i>
+    </button>
+
+    <div id="desktop-menu" class="hidden sm:grid grid-cols-5">
+        <a
+            href="index.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Home</span
+            >
+        </a>
+
+        <a
+            href="about.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >About</span
+            >
+        </a>
+
+        <div class="col-span-1 py-4">
+            </div>
+
+        <a
+            href="diversity&inclusion.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Diversity & Inclusion</span
+            >
+        </a>
+
+        <a
+            href="contactus.html"
+            class="group col-span-1 text-center py-4 px-2 text-black font-semibold transition duration-300 hover:bg-orange-500 rounded-br-xl flex items-center justify-center"
+        >
+            <span
+                class="group-hover:scale-105 transition transform duration-300"
+            >Contact us</span
+            >
+        </a>
+    </div> 
+    
+    <div id="mobile-menu" class="hidden absolute w-full bg-orange-700 z-20 shadow-xl border-t border-black">
+        <a href="index.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">Home</a>
+        <a href="about.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">About</a>
+        <a href="diversity&inclusion.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold border-b border-orange-800">Diversity & Inclusion</a>
+        <a href="contactus.html" class="block px-4 py-3 text-white hover:bg-orange-600 font-semibold">Contact us</a>
+    </div>
+
+
+    <a
+      href="index.html"
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-28 w-28 bg-white rounded-full border-6 border-orange-800 shadow-2xl flex items-center justify-center z-30 transform hover:scale-105 transition duration-300 cursor-pointer"
+    >
+      <img
+        src="assets/images/DVincluLogo.gif"
+        alt="Logo"
+        class="h-26 w-26 object-contain rounded-full"
+        onerror="this.onerror=null;this.src='assets/images/DVincluLogo.gif';"
+      />
+    </a>
+</div>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-14 rounded-lg shadow-xl">
+      <h1 class="text-center text-3xl font-extrabold mb-6 text-orange-700 underline">
+        About 🤔❓
+      </h1>
+
+            <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <!-- Main Heading with Orange Font and Underline -->
+                <!-- UPDATED: Centered, Italicized, and Reduced Size (text-2xl) -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    Our Mission & Values
+                </h2>
+                <!-- Sample Text Below (Updated to text-black) -->
+                <p class="text-black leading-relaxed text-lg">
+                    We believe that diversity is not just a metric, but a vibrant tapestry of experiences, backgrounds, and perspectives. 
+                    Our mission is to create a space where every individual feels empowered to contribute and thrive. Through continuous learning 
+                    and open dialogue, we strive to build bridges of understanding that connect us all.
+                </p>
+            </div>
+
+                        <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <!-- Main Heading with Orange Font and Underline -->
+                <!-- UPDATED: Centered, Italicized, and Reduced Size (text-2xl) -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    What is Diversity & Inclusion?
+                </h2>
+                <!-- Sample Text Below (Updated to text-black) -->
+                <p class="text-black leading-relaxed text-lg">
+                    <em>Diversity</em> is the presence of a wide range of differences among people, such as age, race, gender, religion, ethnicity, sexual orientation, and disability. It involves recognizing, valuing, and including these differences to create a variety of perspectives and experiences within a group or society.<br> <br>
+                    <em>Inclusion</em> on the other hand is the practice of ensuring everyone feels valued, respected, and has equal access to opportunities, regardless of their background, identity, or abilities. It goes beyond simply having diversity to actively creating an environment where people with different perspectives can feel a sense of belonging and contribute to their fullest potential.</br></br> 
+                </p>
+            </div>
+                        <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <!-- Main Heading with Orange Font and Underline -->
+                <!-- UPDATED: Centered, Italicized, and Reduced Size (text-2xl) -->
+                <h2 class="text-2xl font-bold text-orange-700 underline italic text-center mb-4">
+                    Amazing Resource
+                </h2>
+                <!-- Sample Text Below (Updated to text-black) -->
+                <p class="text-black leading-relaxed text-lg">
+                    Resource link: <a href="https://globaldiversitypractice.com/what-is-diversity-inclusion/" class="text-blue-600 underline" target="_blank" rel="noopener noreferrer">https://globaldiversitypractice.com/what-is-diversity-inclusion/</a>
+</a>
+                </p>
+            </div>
+        
+      </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer
+      class="w-full bg-orange-600 py-6 mt-12 shadow-inner border-t-2 border-black"
+    >
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-black text-sm font-medium">
+          Follow us for live updates on Diversity/Inclusion & your chance to win
+          amazing prizes! | © 2025 DV Inclusive  
+        </p>
+
+            <!-- Social Media Button Container: Added space-x-4 for spacing -->
+            <div class="flex justify-center mt-2 space-x-4">
+                
+                <!-- 1. Blue Outline Facebook Button -->
+                <a href="#" aria-label="Facebook"
+                   class="text-blue-600 border border-blue-600 hover:bg-blue-600 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                
+                <!-- 2. Yellow Outline Snapchat Button -->
+                <a href="#" aria-label="Snapchat"
+                   class="border border-yellow-500 hover:bg-yellow-500 hover:text-black 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <!-- Icon uses the specific brand yellow color as requested -->
+                    <i class="fa-brands fa-square-snapchat" style="color: #FFD43B;"></i>
+                </a>
+
+                <!-- 3. Red Outline YouTube Button -->
+                <a href="#" aria-label="YouTube"
+                   class="border border-red-600 hover:bg-red-600 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-youtube" style="color: #ff1900;"></i>
+                </a>
+
+                <!-- 4. Black Outline TikTok Button -->
+                <a href="#" aria-label="TikTok"
+                   class="text-black border border-black hover:bg-black hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                 <!-- 5. Purple Outline Instagram Button -->
+                <a href="#" aria-label="Instagram"
+                   class="border border-purple-400 hover:bg-purple-400 hover:text-white 
+                          transition duration-300 p-2 rounded-lg text-2xl shadow-md">
+                    <i class="fa-brands fa-square-instagram" style="color: #B197FC;"></i>
+                </a>
+            </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+            <script>
+
+    // --- Burger Button Logic ---
+        const burgerButton = document.getElementById('burger-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerButton.addEventListener('click', () => {
+            // Toggle the 'hidden' class to show/hide the mobile menu
+            mobileMenu.classList.toggle('hidden');
+        });
+
+    </script>
+    
+  </body>
+</html>
